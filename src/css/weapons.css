@@ -1,0 +1,81 @@
+.paper, .scissors, .rock, .lizzard, .spock {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+  height: 96px;
+  margin:5px;
+  width: 96px;
+  transition: all .5s ease-out;
+}
+
+.weapons div:hover {
+  box-shadow: 0px 0px 8px 1px var(--dark);
+} 
+
+.weapon h3 {
+  font-size: 1rem;
+  margin-top: 70%;
+}
+
+.paper {
+  background-image: url('../images/paper.png');
+}
+
+.scissors {
+  background-image: url('../images/scissors.png');
+}
+
+.rock {
+  background-image: url('../images/rock.png');
+}
+
+.lizzard {
+  background-image: url('../images/lizzard.png');
+}
+
+.spock {
+  background-image: url('../images/spock.png');
+}
+
+.weapons {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.weapons figure img:hover{
+	box-shadow: rgba(255, 255, 255, 0.2) 0 0 0 1px inset, rgba(0, 0, 0, 0.9) 0 0 0 1px;
+}
+
+/* .weapons-container {
+	margin-top: 10%;
+	text-align: center;
+} */
+
+@media (max-width: 639px) {
+	.weapons figure img{
+		padding: 0;
+		width: 72px;
+	}
+}
+
+@media (min-width: 640px) {
+  .weapons {
+    flex-direction: row;
+  }
+
+  .weapons h3 {
+    font-size: 1.2rem;
+    margin-top: 70%;
+  }
+
+  .paper, .scissors, .rock, .lizzard, .spock {
+    cursor: pointer;
+    height: 128px;
+    margin: 10px;
+    width: 128px;
+  }  
+}

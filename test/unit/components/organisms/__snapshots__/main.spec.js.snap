@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Main should create the main with simulation section 1`] = `
+<main>
+  <h1
+    class=""
+  >
+    Rock - Scissors - Paper
+  </h1>
+  <section>
+    <span
+      class=""
+    >
+      Game complexity: 
+    </span>
+    <select
+      id="gameComplexity"
+    >
+      <option
+        value="1"
+      >
+        Three weapons
+      </option>
+      <option
+        value="2"
+      >
+        Five weapons
+      </option>
+    </select>
+  </section>
+  <section>
+    <span
+      class=""
+    >
+      Select the opponents: 
+    </span>
+    <select
+      id="gameType"
+    >
+      <option
+        value="1"
+      >
+        Human vs Computer
+      </option>
+      <option
+        value="2"
+      >
+        Computer vs Computer 
+      </option>
+    </select>
+  </section>
+  <section
+    class="column"
+  >
+    <span
+      class="score"
+      id="score"
+    >
+      -= Score Board =-
+    </span>
+  </section>
+  <section
+    class="column"
+  >
+    <button
+      id="simulateGame"
+      type="button"
+    />
+  </section>
+  <section
+    class="column"
+  >
+    <button
+      id="resetGame"
+      type="button"
+    />
+  </section>
+</main>
+`;
+
+exports[`Main should create the main with weapons section 1`] = `
+<main>
+  <h1
+    class=""
+  >
+    Rock - Scissors - Paper
+  </h1>
+  <section>
+    <span
+      class=""
+    >
+      Game complexity: 
+    </span>
+    <select
+      id="gameComplexity"
+    >
+      <option
+        value="1"
+      >
+        Three weapons
+      </option>
+      <option
+        value="2"
+      >
+        Five weapons
+      </option>
+    </select>
+  </section>
+  <section>
+    <span
+      class=""
+    >
+      Select the opponents: 
+    </span>
+    <select
+      id="gameType"
+    >
+      <option
+        value="1"
+      >
+        Human vs Computer
+      </option>
+      <option
+        value="2"
+      >
+        Computer vs Computer 
+      </option>
+    </select>
+  </section>
+  <section
+    class="column"
+  >
+    <span
+      class="score"
+      id="score"
+    >
+      -= Score Board =-
+    </span>
+  </section>
+  <section
+    class="column"
+  >
+    <h2
+      class=""
+    >
+      Choose your weapon
+    </h2>
+    <div
+      class="weapons"
+      role="listbox"
+    >
+      <div
+        class="scissors"
+        role="option"
+      >
+        <h3
+          class=""
+        >
+          Scissors
+        </h3>
+      </div>
+      <div
+        class="paper"
+        role="option"
+      >
+        <h3
+          class=""
+        >
+          Paper
+        </h3>
+      </div>
+      <div
+        class="rock"
+        role="option"
+      >
+        <h3
+          class=""
+        >
+          Rock
+        </h3>
+      </div>
+    </div>
+  </section>
+  <section
+    class="column"
+  >
+    <button
+      id="resetGame"
+      type="button"
+    />
+  </section>
+</main>
+`;

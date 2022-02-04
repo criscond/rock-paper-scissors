@@ -1,0 +1,50 @@
+{
+  "name": "rock-paper-scissors",
+  "description": "",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">=10.15.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:criscond/rock-paper-scissors.git"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server --content-base --mode development",
+    "lint": "eslint . --ext .js",
+    "test": "jest --verbose",
+    "test:watch": "jest --watch",
+    "test:update": "jest --updateSnapshot",
+    "test:coverage": "jest --coverage --verbose",
+    "test:coverage:file": "jest --coverage --verbose -file test/unit/components/molecules/weapon.spec.js"
+  },
+  "devDependencies": {
+    "@babel/core": "7.6.4",
+    "@babel/preset-env": "7.6.3",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^27.4.6",
+    "babel-loader": "^8.2.3",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-rewire": "^1.2.0",
+    "core-js": "^3.3.6",
+    "css-loader": "^3.2.0",
+    "eslint": "6.6.0",
+    "eslint-loader": "^3.0.2",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.0.6",
+    "jest": "^24.9.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^6.0.1",
+    "regenerator-runtime": "^0.13.3",
+    "rewire": "^6.0.0",
+    "sass-loader": "^10.2.0",
+    "style-loader": "^1.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-core": "^0.6.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "license": "UNLICENSED"
+}

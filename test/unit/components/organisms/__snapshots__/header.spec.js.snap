@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should create the header 1`] = `
+<header>
+  <ul>
+    <li>
+      <a
+        href="https://github.com/criscond/rock-paper-scissors"
+        rel="noreferrer"
+        target="_blank"
+        title="The GitHub page of the project"
+      >
+        GitHub
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://en.wikipedia.org/wiki/Rock-paper-scissors"
+        rel="noreferrer"
+        target="_blank"
+        title="The WiKi page of the project"
+      >
+        WiKi
+      </a>
+    </li>
+  </ul>
+</header>
+`;

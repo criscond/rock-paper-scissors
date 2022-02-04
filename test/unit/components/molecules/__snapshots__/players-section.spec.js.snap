@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Players Section should create a section 1`] = `
+<section>
+  <span
+    class=""
+  >
+    Select the opponents: 
+  </span>
+  <select
+    id="gameType"
+  >
+    <option
+      value="1"
+    >
+      Human vs Computer
+    </option>
+    <option
+      value="2"
+    >
+      Computer vs Computer 
+    </option>
+  </select>
+</section>
+`;

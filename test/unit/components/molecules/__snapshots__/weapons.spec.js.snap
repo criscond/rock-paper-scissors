@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weapons should create a element 1`] = `
+<div
+  class="weapons"
+  role="listbox"
+>
+  <div
+    class="scissors"
+    role="option"
+  >
+    <h3
+      class=""
+    >
+      Scissors
+    </h3>
+  </div>
+  <div
+    class="paper"
+    role="option"
+  >
+    <h3
+      class=""
+    >
+      Paper
+    </h3>
+  </div>
+  <div
+    class="rock"
+    role="option"
+  >
+    <h3
+      class=""
+    >
+      Rock
+    </h3>
+  </div>
+</div>
+`;

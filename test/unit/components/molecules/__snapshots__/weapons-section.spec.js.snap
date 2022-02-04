@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Weapons Section should create a section 1`] = `
+<section
+  class="column"
+>
+  <h2
+    class=""
+  >
+    Choose your weapon
+  </h2>
+  <div
+    class="weapons"
+    role="listbox"
+  >
+    <div
+      class="scissors"
+      role="option"
+    >
+      <h3
+        class=""
+      >
+        Scissors
+      </h3>
+    </div>
+    <div
+      class="paper"
+      role="option"
+    >
+      <h3
+        class=""
+      >
+        Paper
+      </h3>
+    </div>
+    <div
+      class="rock"
+      role="option"
+    >
+      <h3
+        class=""
+      >
+        Rock
+      </h3>
+    </div>
+  </div>
+</section>
+`;

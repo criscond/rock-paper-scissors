@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Score Board Section should create a section 1`] = `
+<section
+  class="column"
+>
+  <span
+    class="score"
+    id="score"
+  >
+    -= Score Board =-
+  </span>
+</section>
+`;

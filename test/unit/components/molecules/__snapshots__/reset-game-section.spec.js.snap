@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Reset Game Section should create a section 1`] = `
+<section
+  class="column"
+>
+  <button
+    id="resetGame"
+    type="button"
+  />
+</section>
+`;
